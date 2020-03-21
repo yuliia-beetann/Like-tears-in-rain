@@ -1,0 +1,142 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color:#464f54;
+    overflow-x: hidden;
+}
+
+/* set relative */
+
+.container {
+    width: 1060px;
+    margin: 150px auto;
+    position: relative;
+}
+
+/* header */
+
+header {
+    box-shadow: 0 0 50px rgb(0,0,0, 0.3);
+    position: absolute;
+    left: 250px;
+    top: -100px;
+    z-index: 10;
+    position: relative;
+    width: 875px;
+
+}
+
+.title {
+    background-color: #181818;
+    color:#777777;
+    letter-spacing: 0.8em;
+    height: 185px;
+    text-transform: uppercase;
+    padding: 50px 0 50px 60px;
+    font-size: 15px;
+    font-family: "Montserrat", sans-serif;
+}
+
+input {
+    padding-top: 10px;
+    border: none;
+    outline: none;
+    background: transparent; 
+}
+
+input[value] {
+    font-family: "Playfair Display", serif;
+    color: white;
+    font-size: 48px;
+}
+
+hr {
+    height: 3px;
+    border: none;
+    background-color: white;
+    opacity: 0.2;
+}
+
+.tools {
+    background-color: #f0b82b;
+    color: white;
+    height: 76px;
+    width: 810px;
+    display: flex;
+    justify-content: flex-start;
+    padding: 22px 200px 22px 42px;
+    position: absolute;
+    left: 65px;
+    bottom: -76px;
+    z-index: 10;
+    box-shadow: 0 0 50px rgb(0,0,0, 0.3);
+}
+
+.tools .img {
+    height: 27px;
+    padding-right: 30px;
+    opacity: 0.5;
+}
+
+.img:hover {
+    opacity: 1;
+}
+
+/* main content */
+
+main {
+    background-color: #ffffff;
+    color: black;
+    width: 1060px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    box-shadow: 0 0 50px rgb(0,0,0, 0.4);
+}
+
+.content {
+border-left: solid 2px lightgrey;
+margin-left: 65px;
+padding: 200px 130px 20px 56px;
+}
+
+.info {
+    font-family: "Montserrat", sans-serif;
+    font-size: 20px;
+    letter-spacing: 0.2em;
+    color: grey;
+    text-transform: uppercase;
+}
+
+.book_title {
+    font-family: 'PT Sans', sans-serif;
+    font-size: 78px;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 0.1em;
+    padding: 50px 0 22px;
+}
+
+.text {
+    font-family: 'Lora', serif;
+}
+
+.quote {
+    font-style: italic;
+    font-size: 30px;
+    color: grey;
+    padding-bottom: 40px;
+}
+
+.text > p {
+    font-size: 27px;
+    padding: 20px 0;
+    text-align: justify;
+    line-height: normal;
+}
+
+.em {
+    font-style: italic;
+}
